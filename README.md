@@ -8,6 +8,7 @@ Practical tips for running OpenClaw agents, packaged as installable skills.
 |-------|-------------|
 | [show-your-work](skills/show-your-work/) | Make your agent report every file/resource it changes |
 | [context-monitor](skills/context-monitor/) | ASCII dashboard for workspace context budget tracking |
+| [ssh-harden](skills/ssh-harden/) | Lock down sshd to key-only auth and install fail2ban with safety pre-checks |
 
 ## Installation
 
