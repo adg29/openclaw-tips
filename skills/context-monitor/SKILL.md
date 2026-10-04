@@ -1,9 +1,11 @@
 ---
 name: context-monitor
-description: Monitor and visualize workspace context file sizes with ASCII bar charts. Tracks per-file and total usage against configurable caps, with warning thresholds. Use when you want to monitor context window usage, check workspace file sizes, set up context budget alerts, or create a daily context usage report. Triggers on "context usage", "context monitor", "context budget", "workspace size", "file size report".
+description: OpenClaw-only — assumes the openclaw cron command and /root/clawd workspace paths, so do not apply it on other agents. Monitor and visualize workspace context file sizes with ASCII bar charts. Tracks per-file and total usage against configurable caps, with warning thresholds. Use when you want to monitor context window usage, check workspace file sizes, set up context budget alerts, or create a daily context usage report. Triggers on "context usage", "context monitor", "context budget", "workspace size", "file size report".
 ---
 
 # Context Monitor
+
+> **OpenClaw-only.** This skill has only been run on OpenClaw and assumes it: the cron example uses `openclaw cron create` and the bundled script defaults to `/root/clawd/*.md` workspace paths. It is not expected to work on other agents as-is.
 
 Monitor workspace context files to prevent silent truncation from exceeding size caps.
 
