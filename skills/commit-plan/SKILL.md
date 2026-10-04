@@ -141,9 +141,6 @@ git commit -m "message here"
 ## Installation
 
 ```bash
-# OpenClaw workspace
-cp -r skills/commit-plan ~/clawd/skills/
-
 # Claude Code (personal skills)
 cp -r skills/commit-plan ~/.claude/skills/
 
