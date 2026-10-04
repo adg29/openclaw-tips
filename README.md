@@ -9,7 +9,6 @@ that reads that format.
 | Skill | Description |
 |-------|-------------|
 | [show-your-work](skills/show-your-work/) | Make your agent report every file/resource it changes |
-| [context-monitor](skills/context-monitor/) | ASCII dashboard for workspace context budget tracking |
 | [commit-plan](skills/commit-plan/) | Generate structured commit plans with messages and ready-to-run git commands |
 | [ssh-harden](skills/ssh-harden/) | Lock down sshd to key-only auth and install fail2ban with safety pre-checks |
 | [bottleneck-audit](skills/bottleneck-audit/) | Audit where work stalled or came back to you, and classify each human dependency |

@@ -5,6 +5,8 @@ description: Monitor and visualize workspace context file sizes with ASCII bar c
 
 # Context Monitor
 
+> **OpenClaw-only.** This skill has only been run on OpenClaw and assumes it: the cron example uses `openclaw cron create` and the bundled script defaults to `/root/clawd/*.md` workspace paths. It is not expected to work on other agents as-is.
+
 Monitor workspace context files to prevent silent truncation from exceeding size caps.
 
 ## Quick Check
