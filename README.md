@@ -1,5 +1,7 @@
 # skill-pack
 
+[![skills.sh](https://skills.sh/b/adg29/skill-pack)](https://skills.sh/adg29/skill-pack)
+
 SKILL.md files that work across agent tools. Each skill in this repo is a plain folder with a
 `SKILL.md` at its root, so it can be dropped into Grok Bot, Cursor, Claude Code, or any other agent
 that reads that format.
@@ -15,7 +17,11 @@ that reads that format.
 
 ## Installation
 
-Copy the skill folder you want into the skills directory your agent already uses:
+```bash
+npx skills add adg29/skill-pack
+```
+
+Alternatively, copy the skill folder you want into the skills directory your agent already uses:
 
 ```bash
 cp -r skills/show-your-work /path/to/your/agent/skills/
@@ -44,4 +50,4 @@ instructions the agent follows once loaded.
 
 ## License
 
-MIT
+Copyright (c) 2026 Alan Garcia. Released under the [MIT License](LICENSE).
